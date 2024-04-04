@@ -72,11 +72,11 @@ int main() {
 
   // Check communication scenarios
   if (electronics.canCommunicate(electronics.members[0], electronics.members[1])) {
-    cout << "John (Electronics CORE) can communicate with Alice (Electronics JOINT-CORE)" << endl;
+    cout << "Aaa (Electronics CORE) can communicate with BBb (Electronics JOINT-CORE)" << endl;
   }
 
   if (!electronics.canCommunicate(electronics.members[2], software.members[0])) {
-    cout << "Bob (Electronics MEMBER) cannot communicate with David (Software CORE)" << endl;
+    cout << "Ccc (Electronics MEMBER) cannot communicate with Ddd (Software CORE)" << endl;
   }
 
   return 0;
